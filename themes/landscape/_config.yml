@@ -1,0 +1,48 @@
+# Header
+language: zh-CN
+menu:
+  Home: /
+  categories: /categories
+  Archives: /archives
+  tags: /tags
+  message: /message
+  about: /about
+rss: /atom.xml
+
+menu_icons:
+        enable: true
+        home: home
+        categories: th
+        tags: tags
+        archives: archive
+        
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# Sidebar
+sidebar: right
+widgets:
+- category
+- tag
+- tagcloud
+- archive
+- recent_posts
+
+# display widgets at the bottom of index pages (pagination == 2)
+index_widgets:
+# - category
+# - tagcloud
+# - archive
+
+# widget behavior
+archive_type: 'monthly'
+show_count: false
+
+# Miscellaneous
+google_analytics:
+favicon: /favicon.png
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:
