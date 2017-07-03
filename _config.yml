@@ -12,7 +12,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://hellohelloword.github.io/my-hexo-blog/public
+url: https://hellohelloword.github.io/my-hexo-blog/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
