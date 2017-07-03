@@ -5,15 +5,15 @@
 # Site
 title: 行走在技术的道路上，目标高，精，尖！
 subtitle: Goin's Blog
-description: Hello,this is me!
+description:
 author: Goin
-language: zh-CN
+language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://hellohelloword.github.com/my-hexo-blog/public
-root: /my-hexo-blog/public/
+url: http://yoursite.com
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -24,7 +24,7 @@ tag_dir: tags
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
-#i18n_dir: :lang
+i18n_dir: :lang
 skip_render:
 
 # Writing
@@ -68,7 +68,4 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: https://github.com/hellohelloword/my-hexo-blog
-  branch: master
-
+  type:
